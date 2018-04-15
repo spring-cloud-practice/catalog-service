@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: catalog-service
+  jpa:
+    database: hsql
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

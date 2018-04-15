@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: catalog-service
+  cloud:
+    discovery:
+      enabled: false
+    service-registry:
+      auto-registration:
+        enabled: false
+  jpa:
+    database: hsql
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
